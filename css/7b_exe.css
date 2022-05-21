@@ -1,0 +1,74 @@
+.search_1{
+    border-radius: 6px;
+    border-width: 1px;
+    height: 24px;
+    margin-bottom: 50px;
+}
+.search_2{
+    border-radius: 22px;
+    border: none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+    height: 24px;
+    padding: 10px;
+    padding-right: 120px;
+    margin-bottom: 50px;
+}
+.link_email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+.search_3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    margin-bottom: 4px;
+    height: 20px;
+    border-radius: 2px;
+    border-style: solid;
+}
+.link_text{
+    width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.agree{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(12, 109, 201);
+    color:white;
+    border:none;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 22px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.thumb{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.tweet{
+    border:none;
+    color:gray;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.tweet_button{
+    font-weight: bold;
+    font-size: 15px;
+    width: 74px;
+    height: 35px;
+    color: white;
+    border-radius: 17px;
+    background-color: rgb(2, 158, 255);
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
