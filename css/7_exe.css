@@ -1,0 +1,15 @@
+.img_1{
+    width: 800px;
+    border-radius: 15px;
+}
+.img_2{
+    object-fit: cover;
+    width:500px;
+    height: 500px;
+}
+.img_3{
+    object-fit: cover;
+    width:500px;
+    height: 500px;
+    border-radius: 50%;    
+}
