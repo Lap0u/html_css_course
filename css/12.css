@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-width: 0.5px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    margin-left: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.right{
+        margin-right: 10px;
+        font-weight: bold;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        background-color: rgb(31, 109, 226);
+        color: white;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 17px;
+}
