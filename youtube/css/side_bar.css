@@ -4,90 +4,25 @@
     left:0;
     bottom: 0;
     width: 72px;
-    border-left-width: 1px;
-    border-left-style: solid;
-    border-left-color: rgb(228, 228, 228);
-    display: flex;
-    flex-direction: column;
-    height: 450px;
+    background-color: white;
     padding-top: 8px;
-    justify-content: space-between;
     font-size: 10px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: white;
-    border-right-width: 1px;
-    border-right-style: solid;
-    border-right-color: rgb(228, 228, 288);
+    z-index: 102;
 }
-.home_button{
-    flex:1;
-    background-color: aqua;
+.sidebar_link{
+    height: 74px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     transition: background-color 0.15s;
+    cursor: pointer;
 }
-.home_button:hover{
-    background-color: rgb(220, 220, 220);
+.sidebar_link:hover{
+    background-color: rgb(235, 235, 235);
 }
-.explore_button{
-    flex:1;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: background-color 0.15s;
-}
-.explore_button:hover{
-    background-color: rgb(220, 220, 220);
-}
-.subscriptions_button{
-    flex:1;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: background-color 0.15s;
-}
-.subscriptions_button:hover{
-    background-color: rgb(220, 220, 220);
-}
-.originals_button{
-    flex:1;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: background-color 0.15s;
-}
-.originals_button:hover{
-    background-color: rgb(220, 220, 220);
-}
-.youtube_music_button{
-    flex:1;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: background-color 0.15s;
-}
-.youtube_music_button:hover{
-    background-color: rgb(220, 220, 220);
-}
-.library_button{
-    flex:1;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: background-color 0.15s;
-}
-.library_button:hover{
-    background-color: rgb(220, 220, 220);
-}
-.home_icon, .explore_icon, .subscriptions_icon, .originals_icon, .youtube_music_icon, .library_icon{
-    width: 22px;
+.sidebar_link img{
+    width: 24px;
     margin-bottom: 6px;
     justify-content: center;
 }
