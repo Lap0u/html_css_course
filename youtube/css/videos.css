@@ -5,8 +5,18 @@
     row-gap: 40px;
     z-index: 100;
 }
+@media (max-width : 880px){
+    .all_videos_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width : 1180px){
+    .all_videos_grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 .thumbnail_box{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     position: relative;
 }
 .thumbnail{
@@ -29,14 +39,14 @@
     grid-template-columns: 50px 1fr;
 }
 .profile_pic{
-    width: 40px;
+    width: 36px;
     border-radius: 50%;
 }
 .all_description{
     margin-top: 0;
 }
 .video_title{
-    margin-bottom: 12px;
+    margin-bottom: 10xpx;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
